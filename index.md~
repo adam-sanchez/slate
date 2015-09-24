@@ -8,7 +8,7 @@ language_tabs:
 
 toc_footers:
   - <a href='mailto:apikey@polestarglobal.com?subject=APIKEY'>Pole Star API KEY Request</a>
-  - <a href='http://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='http://github.com/tripit/slate'>Documentation Powered by Sanchez</a>
 
 includes:
   - endpoints
@@ -107,7 +107,7 @@ Pole Star expects for the API key to be included in all API requests to the serv
 
 `Authorization: meowmeowmeow`
 
-All requests must use standard HTTP Basic Auth headers with the HTTPS protocol.
+All requests must use standard [HTTP Basic Auth](https://en.wikipedia.org/wiki/Representational_state_transfer headers with the HTTPS protocol).
 
 You don’t need to provide a password for Basic Auth; simply use your secret API key as the Basic Auth user.
 

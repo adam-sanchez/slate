@@ -8,7 +8,7 @@ language_tabs:
 
 toc_footers:
   - <a href='mailto:apikey@polestarglobal.com?subject=APIKEY'>Pole Star API KEY Request</a>
-  - <a href='http://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href='http://github.com/tripit/slate'>Documentation Powered by Sanchez</a>
 
 includes:
   - endpoints

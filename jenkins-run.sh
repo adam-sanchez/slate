@@ -13,7 +13,7 @@ export S3PATH="/slate-latest/"
 
 # s3cmd is installed via pip install s3cmd
 echo "s3 put started"
-s3cmd -r -P put build/ s3://login-development-polestar-internal-com/slate-latest/ --access_key=$S3KEY --secret_key=$S3SECRET
+s3cmd -r -P -M put build/ s3://login-development-polestar-internal-com/slate-latest/ --access_key=$S3KEY --secret_key=$S3SECRET
 echo "s3 put completed"
 echo "s3 list uploaded files:"
 s3cmd ls s3://login-development-polestar-internal-com/slate-latest/ --access_key=$S3KEY --secret_key=$S3SECRET

@@ -6,3 +6,16 @@ export PATH=$PATH:/usr/local/rvm/gems/ruby-2.1.0/bin:/usr/local/rvm/gems/ruby-2.
 echo "Jenkins install of slate (Rake/Ruby)"
 bundle install
 rake build
+
+export S3KEY=`cat /opt/aws/aws_key`
+export S3SECRET=`cat /opt/aws/aws_secret_key`
+export S3PATH="/slate-latest/"
+
+# s3cmd is installed via pip install s3cmd
+echo "s3 put started"
+s3cmd -r -P put build/ s3://login-development-polestar-internal-com/slate-latest/ --access_key=$S3KEY --secret_key=$S3SECRET
+echo "s3 put completed"
+echo "s3 list uploaded files:"
+s3cmd ls s3://login-development-polestar-internal-com/slate-latest/ --access_key=$S3KEY --secret_key=$S3SECRET
+echo "s3 info:"
+s3cmd info s3://login-development-polestar-internal-com/slate-latest/ --access_key=$S3KEY --secret_key=$S3SECRET

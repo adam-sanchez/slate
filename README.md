@@ -1,3 +1,11 @@
+the slate HTML static is in the sub module slate-source 
+and a 
+git submodule update --init --recursive 
+and 
+git submodule foreach git pull origin master
+is required to refresh the link , when the slate-source is updated
+
+
 Slate
 ========
 

@@ -12,8 +12,8 @@ api.kittens.get
 ```python
 import kittn
 
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
+api = kittn.authorize('test test test')
+api.kittens.get(test test test)
 ```
 
 ```shell
@@ -93,8 +93,8 @@ api.kittens.get
 ```python
 import kittn
 
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
+api = kittn.authorize('testing test testing ')
+api.kittens.get(test test testiiinggggggggggggg)
 ```
 
 ```shell
@@ -573,7 +573,8 @@ Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
 
 
-## /content_type
+
+## /content_type 
 
 ```ruby
 require 'kittn'
@@ -585,8 +586,8 @@ api.kittens.get
 ```python
 import kittn
 
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
+api = kittn.authorize('test test test')
+api.kittens.get(test test test)
 ```
 
 ```shell
@@ -598,16 +599,10 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 ```json
 [
-{"components": null, 
-"environment": "prep-*****-cas-app-00", 
-"num_errors": {"high": 0, "low": 0, "medium": 0}, 
-"overall_status": "OK", 
-"product": "Commercial API Service", 
-"systems": 
-{"API": "OK", "Celerybeat": "OK", "Celeryd": "OK", "Database": "OK", "MongoDb": "OK", "RabbitMQ": "OK"}, 
-"uptime": " 10:00:09 up 36 days, 20:39,  1 user,  load average: 0.33, 0.40, 0.39\n", "version": "1.14.24"}
+
 ]
 ```
+
 
 
 Method | Path | Description
@@ -618,10 +613,11 @@ Method | Path | Description
 
 
 
-
 ### HTTP Request
 
 `GET https://api-demo.polestarglobal.com/api/v1/content_type` 
+
+
 
 ### Response Class
 
@@ -653,6 +649,8 @@ Database | Database Status - The status of the Database - OK; ERROR; WARNING.
 <aside class="success">
 Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
+
+
 
 
 ## /correspondent
@@ -697,8 +695,8 @@ Method | Path | Description
 <p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/correspondent | Retrieve a list of correspondents.
 <p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/correspondent | Create a new correspondent.
 <p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/correspondent/{id} | Retrieve a single correspondent by ID.
-<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px ">PUT</p>| /api/v1/correspondent/{id} | Update an existing correspondent.
-<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border:black 1px ">DELETE</p>| /api/v1/correspondent/{id} | Delete an existing correspondent.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/correspondent/{id} | Update an existing correspondent.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/correspondent/{id} | Delete an existing correspondent.
 
 
 ### HTTP Request
@@ -736,87 +734,6 @@ Database | Database Status - The status of the Database - OK; ERROR; WARNING.
 Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
 
-
-## /content_type
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
-```
-
-```shell
-curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
-  -H "Authorization: meowmeowmeow"
-```
-
-> The above command returns JSON structured like this:
-
-```json
-[
-{"components": null, 
-"environment": "prep-*****-cas-app-00", 
-"num_errors": {"high": 0, "low": 0, "medium": 0}, 
-"overall_status": "OK", 
-"product": "Commercial API Service", 
-"systems": 
-{"API": "OK", "Celerybeat": "OK", "Celeryd": "OK", "Database": "OK", "MongoDb": "OK", "RabbitMQ": "OK"}, 
-"uptime": " 10:00:09 up 36 days, 20:39,  1 user,  load average: 0.33, 0.40, 0.39\n", "version": "1.14.24"}
-]
-```
-
-
-Method | Path | Description
---------- | ----------- | ---------
-GET | /api/v1/content_type | Retrieve a list of content types.
-GET | /api/v1/content_type/{id} | Retrieve a single content type by ID.
-
-
-
-
-
-### HTTP Request
-
-`GET https://api-demo.polestarglobal.com/api/v1/content_type` 
-
-### Response Class
-
-Class | Description
---------- | -----------
-num_errors | Errors - The number of recent errors in the API.
-uptime | Uptime - Result of uptime command on the machine.
-product | Product - Name of the API.
-environment | Environment - The environment the API is deployed to: test, production, etc.
-overall_status | Overall Status - The overall status of the API.
-version | Version - Current version of the API - Major.Minor.Patch.
-systems | Systems - Individual systems and their status.
-
-### Class Errors
-
-Class | Description
---------- | -----------
-High | High Errors - Number of High priority errors.
-Medium | Medium Errors - Number of Medium priority errors.
-Low | Low Errors - Number of low errors.
-
-### Class Systems
-
-Class | Description
---------- | -----------
-API | API Status - The status of the API - OK; ERROR; WARNING.
-Database | Database Status - The status of the Database - OK; ERROR; WARNING.
-
-<aside class="success">
-Remember — a happy Pole Starian is an authenticated Pole Starian!
-</aside>
 
 
 ## /document
@@ -3867,7 +3784,8 @@ Database | Database Status - The status of the Database - OK; ERROR; WARNING.
 Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
 
-## /system 
+
+## /translation
 
 ```ruby
 require 'kittn'
@@ -3892,14 +3810,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 ```json
 [
-{"components": null, 
-"environment": "prep-*****-cas-app-00", 
-"num_errors": {"high": 0, "low": 0, "medium": 0}, 
-"overall_status": "OK", 
-"product": "Commercial API Service", 
-"systems": 
-{"API": "OK", "Celerybeat": "OK", "Celeryd": "OK", "Database": "OK", "MongoDb": "OK", "RabbitMQ": "OK"}, 
-"uptime": " 10:00:09 up 36 days, 20:39,  1 user,  load average: 0.33, 0.40, 0.39\n", "version": "1.14.24"}
+
 ]
 ```
 
@@ -3907,18 +3818,14 @@ This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/system/healthcheck/ | Endpoint that just checks that the API is able to connect to its primary database.
-GET | /api/v1/system/status/ | Endpoint for getting the service status of the API.
-GET | /api/v1/system/version/ | Endpoint for getting the version of the API.
-GET | /api/v1/system/statistics/ | Endpoint for getting some statistics provided by the API.
-
-
-
-
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/translation  | Retrieve a list of translation codes.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/translation/{id} | Retrieve a single translation code by ID.
 
 ### HTTP Request
 
-`GET https://api-demo.polestarglobal.com/api/v1/system/status` 
+`GET https://api-demo.polestarglobal.com/api/v1/translation` 
+
+
 
 ### Response Class
 
@@ -3951,9 +3858,7 @@ Database | Database Status - The status of the Database - OK; ERROR; WARNING.
 Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
 
-
-
-## /alert_event
+## /user
 
 ```ruby
 require 'kittn'
@@ -3982,11 +3887,20 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
+This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/alert_event | Retrieve a list of incidents.
-GET | /api/v1/alert_event/{id} | Retrieve a single incident by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user  | Retrieve a list of users.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user | Create a new user.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user/{id} | Retrieve a single user by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/user/{id} | Update an existing user.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/user/{id} | Delete an existing user.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user/password-recover?username={username} | Sends a password recovery request.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user/password-reset?password={password}&token={token} | Resets a password using provided token.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user/{id}/set-password | Sets user password to a new value.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user/password-reset?token={token} | Checks the provided token is valid.
+
 
 
 
@@ -3994,7 +3908,9 @@ GET | /api/v1/alert_event/{id} | Retrieve a single incident by ID.
 
 ### HTTP Request
 
-`GET https://api-demo.polestarglobal.com/api/v1/alert_event/{id}'
+`GET https://api-demo.polestarglobal.com/api/v1/user` 
+
+
 
 ### Response Class
 
@@ -4027,7 +3943,8 @@ Database | Database Status - The status of the Database - OK; ERROR; WARNING.
 Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
 
-## /alert_event
+
+## /user_profile
 
 ```ruby
 require 'kittn'
@@ -4056,11 +3973,15 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
+This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/alert_event | Retrieve a list of incidents.
-GET | /api/v1/alert_event/{id} | Retrieve a single incident by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user_profile  | Retrieve a list of user profiles.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user_profile | Create a new user profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user_profile/{id} | Retrieve a single user profile by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/user_profile/{id} | Update an existing user profile.
+
 
 
 
@@ -4068,7 +3989,9 @@ GET | /api/v1/alert_event/{id} | Retrieve a single incident by ID.
 
 ### HTTP Request
 
-`GET https://api-demo.polestarglobal.com/api/v1/alert_event/{id}'
+`GET https://api-demo.polestarglobal.com/api/v1/user_profile` 
+
+
 
 ### Response Class
 
@@ -4100,5 +4023,238 @@ Database | Database Status - The status of the Database - OK; ERROR; WARNING.
 <aside class="success">
 Remember — a happy Pole Starian is an authenticated Pole Starian!
 </aside>
+
+
+## /user_setting
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+api.kittens.get
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+api.kittens.get()
+```
+
+```shell
+curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
+  -H "Authorization: meowmeowmeow"
+```
+
+> The above command returns JSON structured like this:
+
+```json
+[
+
+]
+```
+
+This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
+Method | Path | Description
+--------- | ----------- | ---------
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user_setting  | Retrieve a list of user settings.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user_setting | Create a new user setting.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user_setting/{id} | Retrieve a single user setting by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/user_setting/{id} | Update an existing user setting.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/user_setting/{id} | Delete an existing user setting.
+
+
+
+
+### HTTP Request
+
+`GET https://api-demo.polestarglobal.com/api/v1/user_setting` 
+
+
+
+### Response Class
+
+Class | Description
+--------- | -----------
+num_errors | Errors - The number of recent errors in the API.
+uptime | Uptime - Result of uptime command on the machine.
+product | Product - Name of the API.
+environment | Environment - The environment the API is deployed to: test, production, etc.
+overall_status | Overall Status - The overall status of the API.
+version | Version - Current version of the API - Major.Minor.Patch.
+systems | Systems - Individual systems and their status.
+
+### Class Errors
+
+Class | Description
+--------- | -----------
+High | High Errors - Number of High priority errors.
+Medium | Medium Errors - Number of Medium priority errors.
+Low | Low Errors - Number of low errors.
+
+### Class Systems
+
+Class | Description
+--------- | -----------
+API | API Status - The status of the API - OK; ERROR; WARNING.
+Database | Database Status - The status of the Database - OK; ERROR; WARNING.
+
+<aside class="success">
+Remember — a happy Pole Starian is an authenticated Pole Starian!
+</aside>
+
+## /user_zone
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+api.kittens.get
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+api.kittens.get()
+```
+
+```shell
+curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
+  -H "Authorization: meowmeowmeow"
+```
+
+> The above command returns JSON structured like this:
+
+```json
+[
+
+]
+```
+
+This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
+Method | Path | Description
+--------- | ----------- | ---------
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user_zone  | Retrieve a list of user zones.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/user_zone | Create a new user zone.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/user_zone/{id} | Retrieve a single user zone by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/user_zone/{id} | Update an existing user zone.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/user_zone/{id} | Delete an existing user zone.
+
+
+### HTTP Request
+
+`GET https://api-demo.polestarglobal.com/api/v1/user_zone` 
+
+
+
+### Response Class
+
+Class | Description
+--------- | -----------
+num_errors | Errors - The number of recent errors in the API.
+uptime | Uptime - Result of uptime command on the machine.
+product | Product - Name of the API.
+environment | Environment - The environment the API is deployed to: test, production, etc.
+overall_status | Overall Status - The overall status of the API.
+version | Version - Current version of the API - Major.Minor.Patch.
+systems | Systems - Individual systems and their status.
+
+### Class Errors
+
+Class | Description
+--------- | -----------
+High | High Errors - Number of High priority errors.
+Medium | Medium Errors - Number of Medium priority errors.
+Low | Low Errors - Number of low errors.
+
+### Class Systems
+
+Class | Description
+--------- | -----------
+API | API Status - The status of the API - OK; ERROR; WARNING.
+Database | Database Status - The status of the Database - OK; ERROR; WARNING.
+
+<aside class="success">
+Remember — a happy Pole Starian is an authenticated Pole Starian!
+</aside>
+
+
+## /weather
+
+```ruby
+require 'kittn'
+
+api = Kittn::APIClient.authorize!('meowmeowmeow')
+api.kittens.get
+```
+
+```python
+import kittn
+
+api = kittn.authorize('meowmeowmeow')
+api.kittens.get()
+```
+
+```shell
+curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
+  -H "Authorization: meowmeowmeow"
+```
+
+> The above command returns JSON structured like this:
+
+```json
+[
+
+]
+```
+
+This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
+Method | Path | Description
+--------- | ----------- | ---------
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/weather  | Retrieve a list of weather.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/weather/{time}/{latitude}/{longtitude} | Endpoint for getting weather forecasts.
+
+
+### HTTP Request
+
+`GET https://api-demo.polestarglobal.com/api/v1/weather` 
+
+
+
+### Response Class
+
+Class | Description
+--------- | -----------
+num_errors | Errors - The number of recent errors in the API.
+uptime | Uptime - Result of uptime command on the machine.
+product | Product - Name of the API.
+environment | Environment - The environment the API is deployed to: test, production, etc.
+overall_status | Overall Status - The overall status of the API.
+version | Version - Current version of the API - Major.Minor.Patch.
+systems | Systems - Individual systems and their status.
+
+### Class Errors
+
+Class | Description
+--------- | -----------
+High | High Errors - Number of High priority errors.
+Medium | Medium Errors - Number of Medium priority errors.
+Low | Low Errors - Number of low errors.
+
+### Class Systems
+
+Class | Description
+--------- | -----------
+API | API Status - The status of the API - OK; ERROR; WARNING.
+Database | Database Status - The status of the Database - OK; ERROR; WARNING.
+
+<aside class="success">
+Remember — a happy Pole Starian is an authenticated Pole Starian!
+</aside>
+
 
 

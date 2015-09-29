@@ -3,7 +3,6 @@ title: API Reference
 
 language_tabs:
   - shell
-  - ruby
   - python
 
 toc_footers:
@@ -64,17 +63,17 @@ e.g. Given a subscription for a user "Tim" with a ship with IMO number 1234567. 
 
 <h2>Work flow</h2>
 <h3>Tracking a ship</h3>
-<img alt="/images/main_workflow.png" class="align-center" src="images/main_workflow.png" style="width: 950px;" />
+<img alt="images/main_workflow.png" class="align-center" src="images/main_workflow.png" style="width: 950px;" />
 
 The above flow diagram represents the calls needed to first create a subscription on a given ship, then activating one or more mobile subscriptions against the {id} returned by the create subscription request. The position request can be polled periodically with a date range in order to track the ship's position. When completed the subscription should be deactivated. This will also deactivate all active mobile subscriptions.
 
 <h3>Swapping mobile transceivers</h3>
-<img alt="/images/swap_transceiver_workflow.png" class="align-center" src="/images/swap_transceiver_workflow.png" style="width: 950px;" />
+<img alt="images/swap_transceiver_workflow.png" class="align-center" src="images/swap_transceiver_workflow.png" style="width: 950px;" />
 
 The above flow diagram represents the calls needed to first create a subscription on a given ship, then activating one or more mobile subscriptions against the {id} returned by the create subscription request. The position request can be polled periodically with a date range in order to track the ship's position. When completed the subscription should be deactivated. This will also deactivate all active mobile subscriptions.
 
 <h3>Immediate position request</h3>
-<img alt="/images/immediate_position.png" class="align-center" src="/images/immediate_position.png" style="width: 950px;" />
+<img alt="images/immediate_position.png" class="align-center" src="images/immediate_position.png" style="width: 950px;" />
 
 The above flow diagram represents the calls needed to first create a subscription on a given ship, then activating one or more mobile subscriptions against the {id} returned by the create subscription request. The position request can be polled periodically with a date range in order to track the ship's position. When completed the subscription should be deactivated. This will also deactivate all active mobile subscriptions.
 

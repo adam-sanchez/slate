@@ -2,12 +2,7 @@
 
 ## /account 
 
-```ruby
-require 'kittn'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
 
 ```python
 import kittn

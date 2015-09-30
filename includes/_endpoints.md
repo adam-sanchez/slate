@@ -78,12 +78,7 @@ Remember — a happy Pole Starian is an authenticated Pole Starian!
 
 ## /ais_status 
 
-```ruby
-require 'kittn'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
 
 ```python
 import kittn

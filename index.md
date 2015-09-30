@@ -81,11 +81,7 @@ The above flow diagram represents the calls needed to first create a subscriptio
 
 > To authorize, use this code:
 
-```ruby
-require 'kittn'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
 
 ```python
 import kittn

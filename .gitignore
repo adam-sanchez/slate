@@ -1,1 +1,26 @@
+<<<<<<< HEAD
 *.md~
+=======
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+*.DS_STORE
+build/
+.cache
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+.idea/
+>>>>>>> 842e77075f22e1796a1ef26bfe2bd75cb08d0eae

@@ -7,7 +7,7 @@ language_tabs:
 
 toc_footers:
   - <a href='mailto:apikey@polestarglobal.com?subject=APIKEY'>Pole Star API KEY Request</a>
-  - <a href='http://github.com/tripit/slate'>Documentation Powered by Sanchez</a>
+  - <a href='http://http://web.polestarglobal.com/news'>Documentation Powered by Sanchez</a>
 
 includes:
   - endpoints
@@ -19,7 +19,7 @@ search: true
 
 # Introduction
 
-<body><p><b>Welcome to the Pole Star Global Commercial API Service (CAS)</b></p>
+<body><p><b>Welcome to the Pole Star Global API Service</b></p>
 
 This API is intended for use by authorised 3rd parties who need to programmatically perform actions on Pole Star Services. The current implementation provides the facility for tracking vessels through multiple communication sources, blending this feed per vessel. Positions can be accessed across a fleet, per ship, or per mobile transceiver.
 

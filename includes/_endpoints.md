@@ -24,8 +24,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
-
 Method | Path | Description
 --------- | ----------- | ---------
 <p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/account  | Retrieve a list of accounts.
@@ -762,11 +760,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/document | Retrieve a list of documents.
-GET | /api/v1/document/{id} | Retrieve a single document by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/document | Retrieve a list of documents.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/document/{id} | Retrieve a single document by ID.
+
+
 
 ### HTTP Request
 
@@ -840,14 +839,14 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/event_action_profile | Retrieve a list of event action profiles.
-POST | /api/v1/event_action_profile | Create a new event action profile.
-GET | /api/v1/event_action_profile/{id} | Retrieve a single event action profile.
-PUT | /api/v1/event_action_profile/{id} | Update an existing event action profile.
-DELETE | /api/v1/event_action_profile/{id} | Delete an existing event action profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/event_action_profile | Retrieve a list of event action profiles.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/event_action_profile | Create a new event action profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/event_action_profile/{id} | Retrieve a single event action profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/event_action_profile/{id} | Update an existing event action profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/event_action_profile/{id} | Delete an existing event action profile.
+
 
 
 ### HTTP Request
@@ -922,11 +921,10 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/event_collection | Retrieve a list of event collections.
-GET | /api/v1/event_collection/{id} | Retrieve a single of event collection by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/event_collection | Retrieve a list of event collections.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/event_collection/{id} | Retrieve a single of event collection by ID.
 
 
 ### HTTP Request
@@ -1000,11 +998,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/event_occurrence | Retrieve a list of event collections.
-GET | /api/v1/event_occurence/{id} | Retrieve a single of event occurance by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/event_occurrence | Retrieve a list of event collections.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/event_occurence/{id} | Retrieve a single of event occurance by ID.
+
+
 
 
 ### HTTP Request
@@ -1079,11 +1078,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/flag | Retrieve a list of flags.
-GET | /api/v1/flag/{id} | Retrieve a single flag by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/flag | Retrieve a list of flags.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/flag/{id} | Retrieve a single flag by ID.
+
+
 
 
 ### HTTP Request
@@ -1158,11 +1158,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/flag_history | Retrieve a list of flag histories.
-GET | /api/v1/flag_history/{id} | Retrieve a single flag history by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/flag_history | Retrieve a list of flag histories.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/flag_history/{id} | Retrieve a single flag history by ID.
+
+
 
 
 ### HTTP Request
@@ -1237,14 +1238,13 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/fleet | Retrieve a list of fleets.
-POST | /api/v1/fleet | Create a new fleet.
-GET | /api/v1/fleet/{id} | Retrieve a single fleet by ID.
-PUT | /api/v1/fleet/{id} | Update an existing fleet.
-DELETE | /api/v1/fleet/{id} | Delete an existing fleet.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/fleet | Retrieve a list of fleets.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/fleet | Create a new fleet.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/fleet/{id} | Retrieve a single fleet by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/fleet/{id} | Update an existing fleet.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/fleet/{id} | Delete an existing fleet.
 
 
 ### HTTP Request
@@ -1319,11 +1319,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/incident | Retrieve a list of incidents.
-GET | /api/v1/incident/{id} | Retrieve a single incident by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/incident | Retrieve a list of incidents.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/incident/{id} | Retrieve a single incident by ID.
+
+
 
 
 ### HTTP Request
@@ -1400,8 +1401,9 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/incident_type | Retrieve a list of incidents types.
-GET | /api/v1/incident/{id} | Retrieve a single incident type by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/incident_type | Retrieve a list of incidents types.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/incident/{id} | Retrieve a single incident type by ID.
+
 
 
 ### HTTP Request
@@ -1476,11 +1478,11 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/language | Retrieve a list of languages.
-GET | /api/v1/language/{id} | Retrieve a single language by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/language | Retrieve a list of languages.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/language/{id} | Retrieve a single language by ID.
+
 
 
 ### HTTP Request
@@ -1555,11 +1557,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/light_position | Retrieve a list of light positions.
-GET | /api/v1/light_position/{id} | Retrieve a single light position by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/light_position | Retrieve a list of light positions.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/light_position/{id} | Retrieve a single light position by ID.
+
+
 
 
 ### HTTP Request
@@ -1633,11 +1636,10 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/lightuser | Retrieve a list of users.
-GET | /api/v1/lightuser/{id} | Retrieve a single user by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/lightuser | Retrieve a list of users.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/lightuser/{id} | Retrieve a single user by ID.
 
 
 ### HTTP Request
@@ -1712,10 +1714,11 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/login | Retrieve a list of API keys.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/login | Retrieve a list of API keys.
+
+
 
 ### HTTP Request
 
@@ -1788,11 +1791,11 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/manufacturer | Retrieve a list of manufacturers.
-GET | /api/v1/manufacturer/{id} | Retrieve a single manufacturer by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/manufacturer | Retrieve a list of manufacturers.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/manufacturer/{id} | Retrieve a single manufacturer by ID.
+
 
 
 ### HTTP Request
@@ -1869,8 +1872,8 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/message_status | Retrieve a list of message statuses.
-GET | /api/v1/message_status/{id} | Retrieve a single message status by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/message_status | Retrieve a list of message statuses.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/message_status/{id} | Retrieve a single message status by ID.
 
 
 ### HTTP Request
@@ -1947,8 +1950,9 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/mobile_subscription_history | Retrieve a list of mobile subscription histories.
-GET | /api/v1/mobile_subscription_history/{id} | Retrieve a single mobile subscription history by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/mobile_subscription_history | Retrieve a list of mobile subscription histories.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/mobile_subscription_history/{id} | Retrieve a single mobile subscription history by ID.
+
 
 
 ### HTTP Request
@@ -2023,11 +2027,12 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/mobilesubscription | Retrieve a list of mobile subscriptions.
-GET | /api/v1/mobilesubscription/{id} | Retrieve a single mobile subscription by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/mobilesubscription | Retrieve a list of mobile subscriptions.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/mobilesubscription/{id} | Retrieve a single mobile subscription by ID.
+
+
 
 
 ### HTTP Request
@@ -2104,8 +2109,9 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/model | Retrieve a list of models.
-GET | /api/v1/model/{id} | Retrieve a single model by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/model | Retrieve a list of models.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/model/{id} | Retrieve a single model by ID.
+
 
 
 ### HTTP Request
@@ -2180,14 +2186,15 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/notification_profile | Retrieve a list of notification profiles.
-POST | /api/v1/notification_profile | Create a notification profile.
-GET | /api/v1/notification_profile/{id} | Retrieve a single notification profile by ID.
-PUT | /api/v1/notification_profile/{id} | Update an existing notification profile.
-DELETE | /api/v1/notification_profile/{id} | Delete an existing notification profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/notification_profile | Retrieve a list of notification profiles.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/notification_profile | Create a notification profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/notification_profile/{id} | Retrieve a single notification profile by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #c5862b; border: black 1px "">PUT</p>| /api/v1/notification_profile/{id} | Update an existing notification profile.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/notification_profile/{id} | Delete an existing notification profile.
+
+
 
 ### HTTP Request
 
@@ -2264,8 +2271,11 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/permission | Retrieve a list of permissions.
-GET | /api/v1/permission/{id} | Retrieve a single permission by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/permission | Retrieve a list of permissions.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/permission/{id} | Retrieve a single permission by ID.
+
+
+
 ### HTTP Request
 
 `GET https://api-demo.polestarglobal.com/api/v1/permission` 
@@ -2337,11 +2347,10 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/position | Retrieve a list of positions.
-GET | /api/v1/position/{id} | Retrieve a single position by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/position | Retrieve a list of positions.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/position/{id} | Retrieve a single position by ID.
 
 
 ### HTTP Request
@@ -2419,8 +2428,10 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/procedure_checklist | Retrieve a list of procedure checklists.
-GET | /api/v1/procedure_checklist/{id} | Retrieve a single procedure checklist by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/procedure_checklist | Retrieve a list of procedure checklists.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/procedure_checklist/{id} | Retrieve a single procedure checklist by ID.
+
+
 
 
 ### HTTP Request
@@ -2497,8 +2508,9 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/procedure_step | Retrieve a list of procedure steps.
-GET | /api/v1/procedure_step/{id} | Retrieve a single procedure step by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/procedure_step | Retrieve a list of procedure steps.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/procedure_step/{id} | Retrieve a single procedure step by ID.
+
 
 
 ### HTTP Request
@@ -2572,14 +2584,13 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-
 Method | Path | Description
 --------- | ----------- | ---------
-GET | /api/v1/report | Retrieve a list of reports.
-POST | /api/v1/report | Create a new report.
-GET | /api/v1/report/{id} | Retrieve a single report by ID.
-DELETE | /api/v1/report/{id} | Delete an existing report.
-GET | /api/v1/report/{id}/download | Endpoint for downloading a report.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/report | Retrieve a list of reports.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #10a54a; border: black 1px ">POST</p>| /api/v1/report | Create a new report.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/report/{id} | Retrieve a single report by ID.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #a41e22; border: black 1px ">DELETE</p>| /api/v1/report/{id} | Delete an existing report.
+<p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/report/{id}/download | Endpoint for downloading a report.
 
 ### HTTP Request
 
@@ -2646,7 +2657,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -2723,7 +2734,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -2802,7 +2813,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -2878,7 +2889,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -2954,7 +2964,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3032,7 +3042,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3109,7 +3118,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3186,7 +3194,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3262,7 +3269,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3357,7 +3364,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3431,7 +3438,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3506,9 +3512,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 ]
 ```
-
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
-
 Method | Path | Description
 --------- | ----------- | ---------
 <p style="text-align: center; border-radius: 5px; padding: 1px; color:white; background-color: #0f6ab4; border: black 1px ">GET</p>| /api/v1/subcription_history  | Retrieve a list of subscription histories.
@@ -3580,8 +3583,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 
 ]
 ```
-
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3730,7 +3731,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3804,7 +3804,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3877,7 +3877,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -3963,7 +3963,6 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -4044,7 +4043,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -4123,7 +4122,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------
@@ -4201,7 +4200,7 @@ curl "https://api-demo.polestarglobal.com/api/v1/system/status/?format=html"
 ]
 ```
 
-This endpoint retrieves API Status. [API Status](https://api-demo.polestarglobal.com/api/v1/system/status/?format=html)
+
 
 Method | Path | Description
 --------- | ----------- | ---------

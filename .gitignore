@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+*.md~
+<<<<<<< HEAD
+=======
 *.gem
 *.rbc
 .bundle
@@ -20,3 +24,7 @@ build/
 _yardoc
 doc/
 .idea/
+>>>>>>> 842e77075f22e1796a1ef26bfe2bd75cb08d0eae
+=======
+*.scss~
+>>>>>>> 2e85870bd3e82a30e47c6cd12b81801fbcdae4ad
